@@ -45,7 +45,7 @@ class FckeditorController < ActionController::Base
  	  render :inline => RXML, :type => :rxml unless params[:Command] == 'FileUpload'
  	end 
  	
-  #method for getting folders and files
+  
   def get_folders_and_files(include_files = true)
     @folders = Array.new
     @files = {}
@@ -63,6 +63,7 @@ class FckeditorController < ActionController::Base
     end
   end
 
+  
   def create_folder
     begin 
       @url = current_directory_path
