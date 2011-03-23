@@ -21,8 +21,8 @@ Nicola Piccinini: http://superfluo.org for various bits and pieces
 
 This plugin installs the FCKeditor editor into your rails app, along with some helpers to use in your views.
 
-Install
--------
+Installation of the plugin
+---------------------------
 
 If you got this using:
 
